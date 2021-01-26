@@ -290,7 +290,7 @@ void displayuser()
     printf("\t\tUsername = ");
     puts(account[j].username);
     printf("\t\tPassword = ");
-    puts(account[i].password);
+    puts(account[j].password);
     printf("\t\tCardnumber = %d\n\t\tBalance = %.2f\n\t\tAge= %d\n\t\tPhone number= 0%lld\n", account[j].cardnumber, account[j].balance, account[j].age, account[j].phonenumber);
     printf("\n\n");
     printf("\t\tPress any key to continue...");
